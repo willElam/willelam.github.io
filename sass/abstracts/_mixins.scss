@@ -1,0 +1,15 @@
+@mixin clearfix {
+    &::after{
+        content:"";
+        display:table;
+        clear: both;
+    }
+}
+
+@mixin abcenter($top,$left) {
+    position: absolute;
+    top:$top;
+    left:$left;
+    transform: translate( -50%, -50%);
+    text-align: center;
+}
