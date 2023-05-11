@@ -330,7 +330,7 @@ html {
 
 .screenshot {
   max-width: 114rem;
-  width: 100vw;
+  width: 100%;
   margin-bottom: 4rem; }
 
 .header {
@@ -404,7 +404,8 @@ html {
 .row {
   max-width: 114rem;
   margin: 0 auto;
-  margin-bottom: 8rem; }
+  margin-bottom: 8rem;
+  padding: 1rem; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
   .row::after {
